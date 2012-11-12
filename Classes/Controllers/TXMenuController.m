@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -175,7 +175,7 @@
 			return BOOLValueFromObject(u);
 			break;
 		}
-		case 592:	// textual logs
+		case 592:	// frextual logs
 		{
 			return [TPCPreferences logTranscript];
 			break;
@@ -1577,14 +1577,14 @@
 	}
 }
 
-- (void)connectToTextualHelpChannel:(id)sender 
+- (void)connectToFrextualHelpChannel:(id)sender 
 {
-	[self.world createConnection:@"chat.freenode.net +6697" chan:@"#textual"];
+	[self.world createConnection:@"chat.freenode.net +6697" chan:@"#frextual"];
 }
 
-- (void)connectToTextualTestingChannel:(id)sender
+- (void)connectToFrextualTestingChannel:(id)sender
 {
-	[self.world createConnection:@"chat.freenode.net +6697" chan:@"#textual-testing"];
+	[self.world createConnection:@"chat.freenode.net +6697" chan:@"#frextual-testing"];
 }
 
 - (void)__onWantHostServVhostSet:(id)sender andVhost:(NSString *)vhost
@@ -1654,13 +1654,13 @@
 - (void)openHelpMenuLinkItem:(id)sender
 {
 	switch ([sender tag]) {
-		case 101: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Textual/"]]; break;
-		case 103: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Textual/text-formatting"]]; break;
-		case 104: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Textual/command-reference"]]; break;
-		case 105: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Textual/memory-management"]]; break;
-		case 106: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Textual/styles"]]; break;
-		case 108: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Textual/feature-requests"]]; break;
-		case 110: [_NSWorkspace() openURL:[NSURL URLWithString:@"http://www.codeux.com/textual/forum/"]]; break;
+		case 101: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Frextual/"]]; break;
+		case 103: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Frextual/text-formatting"]]; break;
+		case 104: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Frextual/command-reference"]]; break;
+		case 105: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Frextual/memory-management"]]; break;
+		case 106: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Frextual/styles"]]; break;
+		case 108: [_NSWorkspace() openURL:[NSURL URLWithString:@"https://wiki.github.com/codeux/Frextual/feature-requests"]]; break;
+		case 110: [_NSWorkspace() openURL:[NSURL URLWithString:@"http://www.codeux.com/frextual/forum/"]]; break;
 	}
 }
 

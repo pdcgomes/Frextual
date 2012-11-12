@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -37,13 +37,13 @@
 
 #import "TextualApplication.h"
 
-/* Highest level objects implemented by Textual. */
+/* Highest level objects implemented by Frextual. */
 
 TEXTUAL_EXTERN BOOL NSObjectIsEmpty(id obj);
 TEXTUAL_EXTERN BOOL NSObjectIsNotEmpty(id obj);
 
-TEXTUAL_EXTERN NSString *TXTLS(NSString *key); // Textual Language String
-TEXTUAL_EXTERN NSString *TXTFLS(NSString *key, ...); // Textual Formatted Language String
+TEXTUAL_EXTERN NSString *TXTLS(NSString *key); // Frextual Language String
+TEXTUAL_EXTERN NSString *TXTFLS(NSString *key, ...); // Frextual Formatted Language String
 
 TEXTUAL_EXTERN NSInteger TXRandomNumber(NSInteger maxset);
 

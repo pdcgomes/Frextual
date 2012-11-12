@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -120,7 +120,7 @@
 - (void)setUpToolbarItemsAndMenus
 {
 	if (NSObjectIsNotEmpty(self.world.bundlesWithPreferences)) {
-		for (THOTextualPluginItem *plugin in self.world.bundlesWithPreferences) {
+		for (THOFrextualPluginItem *plugin in self.world.bundlesWithPreferences) {
 			NSInteger tagIndex = ([self.world.bundlesWithPreferences indexOfObject:plugin] + 20);
 			
 			NSMenuItem *pluginMenu = [NSMenuItem new];
@@ -153,7 +153,7 @@
 		case 11: [self firstPane:self.experimentalSettingsView selectedItem:11]; break;
 		default:
 		{
-			THOTextualPluginItem *plugin = [self.world.bundlesWithPreferences safeObjectAtIndex:([sender tag] - 20)];
+			THOFrextualPluginItem *plugin = [self.world.bundlesWithPreferences safeObjectAtIndex:([sender tag] - 20)];
 			
 			if (plugin) {
 				NSView *prefsView = [plugin.pluginPrimaryClass preferencesView];
@@ -689,7 +689,7 @@
 	
 	NSMutableString *download = [NSMutableString string];
 	
-	[download appendString:@"https://github.com/Codeux/Textual/blob/master/Resources/All%20Scripts/Sandbox%20Exceptions/Installers/Textual%20Extras%20%28"];
+	[download appendString:@"https://github.com/Codeux/Frextual/blob/master/Resources/All%20Scripts/Sandbox%20Exceptions/Installers/Frextual%20Extras%20%28"];
 	[download appendString:version];
 	[download appendString:@"%29.pkg?raw=true"];
 

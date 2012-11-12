@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -71,7 +71,7 @@ __weak static TXMasterController *internalMasterController;
 
 static NSDictionary *systemVersionPlist = nil;
 
-+ (NSDictionary *)textualInfoPlist
++ (NSDictionary *)frextualInfoPlist
 {
 	return [[NSBundle mainBundle] infoDictionary];
 }
@@ -361,7 +361,7 @@ NSString *IRCPublicCommandIndex(const char *key)
 
 + (NSString *)applicationName
 {
-	return [TPCPreferences textualInfoPlist][@"CFBundleName"];
+	return [TPCPreferences frextualInfoPlist][@"CFBundleName"];
 }
 
 + (NSInteger)applicationProcessID
@@ -371,7 +371,7 @@ NSString *IRCPublicCommandIndex(const char *key)
 
 + (NSString *)gitBuildReference
 {
-	return [TPCPreferences textualInfoPlist][@"TXBundleBuildReference"];
+	return [TPCPreferences frextualInfoPlist][@"TXBundleBuildReference"];
 }
 
 + (NSString *)applicationBundleIdentifier
@@ -403,7 +403,7 @@ NSString *IRCPublicCommandIndex(const char *key)
 
 + (NSString *)applicationSupportFolderPath
 {
-	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Textual IRC/"];
+	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Frextual IRC/"];
 
 	if ([_NSFileManager() fileExistsAtPath:dest] == NO) {
 		[_NSFileManager() createDirectoryAtPath:dest withIntermediateDirectories:YES attributes:nil error:NULL];
@@ -414,7 +414,7 @@ NSString *IRCPublicCommandIndex(const char *key)
 
 + (NSString *)customScriptFolderPath
 {
-	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Textual IRC/Scripts/"];
+	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Frextual IRC/Scripts/"];
 
 	if ([_NSFileManager() fileExistsAtPath:dest] == NO) {
 		[_NSFileManager() createDirectoryAtPath:dest withIntermediateDirectories:YES attributes:nil error:NULL];
@@ -425,7 +425,7 @@ NSString *IRCPublicCommandIndex(const char *key)
 
 + (NSString *)customThemeFolderPath
 {
-	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Textual IRC/Styles/"];
+	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Frextual IRC/Styles/"];
 
 	if ([_NSFileManager() fileExistsAtPath:dest] == NO) {
 		[_NSFileManager() createDirectoryAtPath:dest withIntermediateDirectories:YES attributes:nil error:NULL];
@@ -436,7 +436,7 @@ NSString *IRCPublicCommandIndex(const char *key)
 
 + (NSString *)customExtensionFolderPath
 {
-	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Textual IRC/Extensions/"];
+	NSString *dest = [[self _whereApplicationSupportPath] stringByAppendingPathComponent:@"/Frextual IRC/Extensions/"];
 
 	if ([_NSFileManager() fileExistsAtPath:dest] == NO) {
 		[_NSFileManager() createDirectoryAtPath:dest withIntermediateDirectories:YES attributes:nil error:NULL];
@@ -561,7 +561,7 @@ static NSURL *transcriptFolderResolvedBookmark;
 + (void)setTranscriptFolder:(id)value
 {
 	// "value" can either be returned as an absolute path on non-sandboxed
-	// versions of Textual or as an NSData object on sandboxed versions.
+	// versions of Frextual or as an NSData object on sandboxed versions.
 
 	if ([self sandboxEnabled]) {
 		if ([TPCPreferences securityScopedBookmarksAvailable] == NO) {
@@ -1369,19 +1369,19 @@ static NSInteger totalRunTime = 0;
 	d[@"ScanForIRCopAlertInServerNoticesMatch"] = @"ircop alert";
 
 	d[@"DefaultIdentity -> Nickname"] = @"Guest";
-	d[@"DefaultIdentity -> Username"] = @"textual";
-	d[@"DefaultIdentity -> Realname"] = @"Textual User";
+	d[@"DefaultIdentity -> Username"] = @"frextual";
+	d[@"DefaultIdentity -> Realname"] = @"Frextual User";
 
 	d[@"IRCopDefaultLocalizaiton -> Shun Reason"] = TXTLS(@"ShunReason");
 	d[@"IRCopDefaultLocalizaiton -> Kill Reason"] = TXTLS(@"KillReason");
 	d[@"IRCopDefaultLocalizaiton -> G:Line Reason"] = TXTLS(@"GlineReason");
 
-	d[@"Theme -> Name"] = TXDefaultTextualLogStyle;
-	d[@"Theme -> Font Name"] = TXDefaultTextualLogFont;
+	d[@"Theme -> Name"] = TXDefaultFrextualLogStyle;
+	d[@"Theme -> Font Name"] = TXDefaultFrextualLogFont;
 	d[@"Theme -> Nickname Format"] = TXLogLineUndefinedNicknameFormat;
-	d[@"Theme -> Timestamp Format"] = TXDefaultTextualTimestampFormat;
+	d[@"Theme -> Timestamp Format"] = TXDefaultFrextualTimestampFormat;
 
-	d[@"LogTranscriptDestination"] = @"~/Documents/Textual Logs";
+	d[@"LogTranscriptDestination"] = @"~/Documents/Frextual Logs";
 
 	d[@"ChannelOperatorDefaultLocalization -> Kick Reason"] = TXTLS(@"KickReason");
 
@@ -1429,7 +1429,7 @@ static NSInteger totalRunTime = 0;
 	/* Font Check */
 
 	if ([NSFont fontIsAvailable:[TPCPreferences themeChannelViewFontName]] == NO) {
-		[_NSUserDefaults() setObject:TXDefaultTextualLogFont forKey:@"Theme -> Font Name"];
+		[_NSUserDefaults() setObject:TXDefaultFrextualLogFont forKey:@"Theme -> Font Name"];
 	}
 
 	/* Theme Check */
@@ -1445,7 +1445,7 @@ static NSInteger totalRunTime = 0;
         themePath = [themePath stringByAppendingPathComponent:themeName];
 
         if ([_NSFileManager() fileExistsAtPath:themePath] == NO) {
-            [_NSUserDefaults() setObject:TXDefaultTextualLogStyle forKey:@"Theme -> Name"];
+            [_NSUserDefaults() setObject:TXDefaultFrextualLogStyle forKey:@"Theme -> Name"];
         } else {
             NSString *newName = [NSString stringWithFormat:@"resource:%@", themeName];
 			

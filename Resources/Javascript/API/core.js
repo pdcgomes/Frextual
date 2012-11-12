@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -35,8 +35,8 @@
 
  *********************************************************************** */
 
-Textual = {
-	/* Callbacks for each WebView in Textual. — Self explanatory. */
+Frextual = {
+	/* Callbacks for each WebView in Frextual. — Self explanatory. */
 	
 	/* 
 	 viewInitiated:
@@ -68,7 +68,7 @@ Textual = {
 	{
 		document.body.scrollTop = document.body.scrollHeight;
 		
-		Textual.viewPositionMovedToBottom();
+		Frextual.viewPositionMovedToBottom();
 	},
 
 	/* Loading screen. */
@@ -109,28 +109,28 @@ Textual = {
 		}
 	},
 	
-	/* Contextual menu management and other resources.
+	/* Confrextual menu management and other resources.
 	 We do not recommend anyone try to override these. */
 	
-	openChannelNameContextualMenu: 			function() { app.setChannelName(event.target.innerHTML); },
-	openURLManagementContextualMenu:		function() { app.setURLAddress(event.target.innerHTML); },
-	openInlineNicknameContextualMenu:		function() { app.setNickname(event.target.innerHTML); }, // Conversation Tracking
-	openStandardNicknameContextualMenu: 	function() { app.setNickname(event.target.getAttribute("nick")); },
+	openChannelNameConfrextualMenu: 			function() { app.setChannelName(event.target.innerHTML); },
+	openURLManagementConfrextualMenu:		function() { app.setURLAddress(event.target.innerHTML); },
+	openInlineNicknameConfrextualMenu:		function() { app.setNickname(event.target.innerHTML); }, // Conversation Tracking
+	openStandardNicknameConfrextualMenu: 	function() { app.setNickname(event.target.getAttribute("nick")); },
 	
 	nicknameDoubleClicked: function() { 
-		Textual.openStandardNicknameContextualMenu();
+		Frextual.openStandardNicknameConfrextualMenu();
 
 		app.nicknameDoubleClicked();
 	},
 	
 	channelNameDoubleClicked: function() {
-		Textual.openChannelNameContextualMenu();
+		Frextual.openChannelNameConfrextualMenu();
 
 		app.channelNameDoubleClicked();
 	},
 	
 	inlineNicknameDoubleClicked: function() {
-		Textual.openInlineNicknameContextualMenu();
+		Frextual.openInlineNicknameConfrextualMenu();
 
 		app.nicknameDoubleClicked();
 	},
@@ -146,14 +146,14 @@ Textual = {
     /* The following API calls are deprecated. */
     
 	include_js: function(file) {
-		Textual.includeScriptResourceFile(file);
+		Frextual.includeScriptResourceFile(file);
 	},
 
 	include_css: function(file) {
-		Textual.includeStyleResourceFile(file);
+		Frextual.includeStyleResourceFile(file);
 	},
 
 	newMessagePostedToDisplay: function(lineNumber) {
-		Textual.newMessagePostedToView(lineNumber);
+		Frextual.newMessagePostedToView(lineNumber);
 	},
 }

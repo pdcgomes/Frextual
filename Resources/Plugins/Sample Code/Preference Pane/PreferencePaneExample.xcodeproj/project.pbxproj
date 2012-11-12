@@ -201,13 +201,13 @@
 					i386,
 					x86_64,
 				);
-				FRAMEWORK_SEARCH_PATHS = "/Applications/Textual.app/Contents/Frameworks/**";
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Frextual.app/Contents/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /Applications/Textual.app/Contents/Headers/;
+				HEADER_SEARCH_PATHS = /Applications/Frextual.app/Contents/Headers/;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				SDKROOT = "";
@@ -222,12 +222,12 @@
 					i386,
 					x86_64,
 				);
-				FRAMEWORK_SEARCH_PATHS = "/Applications/Textual.app/Contents/Frameworks/**";
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Frextual.app/Contents/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /Applications/Textual.app/Contents/Headers/;
+				HEADER_SEARCH_PATHS = /Applications/Frextual.app/Contents/Headers/;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				SDKROOT = "";

@@ -767,7 +767,7 @@
 						<object class="NSButtonCell" key="NSCell" id="724893750">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Connect when Textual opens</string>
+							<string key="NSContents">Connect when Frextual opens</string>
 							<reference key="NSSupport" ref="788253527"/>
 							<reference key="NSControlView" ref="997164220"/>
 							<int key="NSButtonFlags">1211912448</int>
@@ -977,7 +977,7 @@
 							<int key="NSCellFlags2">272630784</int>
 							<string key="NSContents"/>
 							<reference key="NSSupport" ref="788253527"/>
-							<string key="NSPlaceholderString">Textual User</string>
+							<string key="NSPlaceholderString">Frextual User</string>
 							<reference key="NSControlView" ref="864306055"/>
 							<bool key="NSDrawsBackground">YES</bool>
 							<reference key="NSBackgroundColor" ref="667243420"/>
@@ -1015,7 +1015,7 @@
 							<int key="NSCellFlags2">272630784</int>
 							<string key="NSContents"/>
 							<reference key="NSSupport" ref="788253527"/>
-							<string key="NSPlaceholderString">textual</string>
+							<string key="NSPlaceholderString">frextual</string>
 							<reference key="NSControlView" ref="677788319"/>
 							<bool key="NSDrawsBackground">YES</bool>
 							<reference key="NSBackgroundColor" ref="667243420"/>

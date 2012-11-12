@@ -126,7 +126,7 @@
  *	 and description of a notification are universal. Most of the built-in
  *	 displays do support all of these keys, and most other visual displays
  *	 probably will also. But, as of 0.6, the Log, MailMe, and Speech displays
- *	 support only textual data.
+ *	 support only frextual data.
  */
 
 /*!	@defined GROWL_NOTIFICATION_NAME

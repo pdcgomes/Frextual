@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -52,7 +52,7 @@ typedef enum IRCTextFormatterEffectType : NSInteger {
 - (NSString *)attributedStringToASCIIFormatting:(NSMutableAttributedString **)string 
                                        lineType:(TVCLogLineType)type 
                                         channel:(NSString *)chan 
-                                       hostmask:(NSString *)host; // Only Textual should be calling this.
+                                       hostmask:(NSString *)host; // Only Frextual should be calling this.
 @end
 
 @interface TVCTextField (TextFieldFormattingHelper) 

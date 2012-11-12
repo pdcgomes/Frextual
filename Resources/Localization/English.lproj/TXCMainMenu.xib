@@ -53,7 +53,7 @@
 				<array class="NSMutableArray" key="NSMenuItems">
 					<object class="NSMenuItem" id="33257923">
 						<reference key="NSMenu" ref="215217970"/>
-						<string key="NSTitle">Textual</string>
+						<string key="NSTitle">Frextual</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -67,11 +67,11 @@
 						</object>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="211985183">
-							<string key="NSTitle">Textual</string>
+							<string key="NSTitle">Frextual</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="491891229">
 									<reference key="NSMenu" ref="211985183"/>
-									<string key="NSTitle">About Textual</string>
+									<string key="NSTitle">About Frextual</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="222848805"/>
@@ -138,7 +138,7 @@
 								</object>
 								<object class="NSMenuItem" id="873166663">
 									<reference key="NSMenu" ref="211985183"/>
-									<string key="NSTitle">Hide Textual</string>
+									<string key="NSTitle">Hide Frextual</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -176,7 +176,7 @@
 								</object>
 								<object class="NSMenuItem" id="657949692">
 									<reference key="NSMenu" ref="211985183"/>
-									<string key="NSTitle">Quit Textual &amp; IRC</string>
+									<string key="NSTitle">Quit Frextual &amp; IRC</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1280,7 +1280,7 @@
 								</object>
 								<object class="NSMenuItem" id="138370719">
 									<reference key="NSMenu" ref="272041888"/>
-									<string key="NSTitle">Textual Logs</string>
+									<string key="NSTitle">Frextual Logs</string>
 									<string key="NSKeyEquiv">4</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -3027,7 +3027,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{874, 449}, {652, 550}}</string>
 				<int key="NSWTFlags">1886912512</int>
-				<string key="NSWindowTitle">Textual</string>
+				<string key="NSWindowTitle">Frextual</string>
 				<string key="NSWindowClass">TVCMainWindow</string>
 				<object class="NSMutableString" key="NSViewClass">
 					<characters key="NS.bytes">View</characters>
@@ -4274,7 +4274,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">connectToTextualHelpChannel:</string>
+						<string key="label">connectToFrextualHelpChannel:</string>
 						<reference key="source" ref="361464326"/>
 						<reference key="destination" ref="114437229"/>
 					</object>
@@ -4906,7 +4906,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">connectToTextualTestingChannel:</string>
+						<string key="label">connectToFrextualTestingChannel:</string>
 						<reference key="source" ref="361464326"/>
 						<reference key="destination" ref="594086696"/>
 					</object>
@@ -7810,13 +7810,13 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 					<string key="className">TXMenuController</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">connectToTextualTestingChannel:</string>
+						<string key="NS.key.0">connectToFrextualTestingChannel:</string>
 						<string key="NS.object.0">id</string>
 					</object>
 					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">connectToTextualTestingChannel:</string>
+						<string key="NS.key.0">connectToFrextualTestingChannel:</string>
 						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">connectToTextualTestingChannel:</string>
+							<string key="name">connectToFrextualTestingChannel:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 					</object>

@@ -1,4 +1,4 @@
-// Created by Codeux Software <support AT codeux DOT com> <https://github.com/codeux/Textual>
+// Created by Codeux Software <support AT codeux DOT com> <https://github.com/codeux/Frextual>
 // You can redistribute it and/or modify it under the new BSD license.
 
 #import "TPI_PreferencePaneExample.h"

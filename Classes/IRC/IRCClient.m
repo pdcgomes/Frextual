@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -1153,7 +1153,7 @@ static NSDateFormatter *dateTimeFormatter = nil;
 #pragma mark -
 #pragma mark Plugins and Scripts
 
--(void)executeTextualCmdScript:(NSDictionary *)details
+-(void)executeFrextualCmdScript:(NSDictionary *)details
 {
 	if ([details containsKey:@"path"] == NO) {
 		return;
@@ -1189,7 +1189,7 @@ static NSDateFormatter *dateTimeFormatter = nil;
 																						bytes:&psn
 																					   length:sizeof(ProcessSerialNumber)];
 
-		NSAppleEventDescriptor *handler = [NSAppleEventDescriptor descriptorWithString:@"textualcmd"];
+		NSAppleEventDescriptor *handler = [NSAppleEventDescriptor descriptorWithString:@"frextualcmd"];
 		NSAppleEventDescriptor *event	= [NSAppleEventDescriptor appleEventWithEventClass:kASAppleScriptSuite
 																				 eventID:kASSubroutineEvent
 																		targetDescriptor:target
@@ -2443,11 +2443,11 @@ static NSDateFormatter *dateTimeFormatter = nil;
 		{
 			NSString *ref  = [TPCPreferences gitBuildReference];
 			NSString *name = [TPCPreferences applicationName];
-			NSString *vers = [TPCPreferences textualInfoPlist][@"CFBundleVersion"];
+			NSString *vers = [TPCPreferences frextualInfoPlist][@"CFBundleVersion"];
 
 			NSString *text = [NSString stringWithFormat:TXTLS(@"IRCCTCPVersionInfo"), name, vers,
 							  ((NSObjectIsEmpty(ref)) ? TXTLS(@"Unknown") : ref),
-							  [TPCPreferences textualInfoPlist][@"TXBundleBuildCodeName"]];
+							  [TPCPreferences frextualInfoPlist][@"TXBundleBuildCodeName"]];
 
 			if (c.isChannel == NO && c.isTalk == NO) {
 				[self printDebugInformationToConsole:text];
@@ -2728,7 +2728,7 @@ static NSDateFormatter *dateTimeFormatter = nil;
 						@"target": NSStringNilValueSubstitute(targetChannelName)
 						};
 
-                        [self.invokeInBackgroundThread executeTextualCmdScript:inputInfo];
+                        [self.invokeInBackgroundThread executeFrextualCmdScript:inputInfo];
 
                         return YES;
 					}
@@ -3870,11 +3870,11 @@ static NSDateFormatter *dateTimeFormatter = nil;
 			} else {
 				NSString *ref  = [TPCPreferences gitBuildReference];
 				NSString *name = [TPCPreferences applicationName];
-				NSString *vers = [TPCPreferences textualInfoPlist][@"CFBundleVersion"];
+				NSString *vers = [TPCPreferences frextualInfoPlist][@"CFBundleVersion"];
 
 				NSString *text = [NSString stringWithFormat:TXTLS(@"IRCCTCPVersionInfo"), name, vers,
 								  ((NSObjectIsEmpty(ref)) ? TXTLS(@"Unknown") : ref),
-								  [TPCPreferences textualInfoPlist][@"TXBundleBuildCodeName"]];
+								  [TPCPreferences frextualInfoPlist][@"TXBundleBuildCodeName"]];
 
 				[self sendCTCPReply:nick command:command text:text];
 			}

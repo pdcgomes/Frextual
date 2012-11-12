@@ -1,15 +1,15 @@
-/* Defined in: "Textual.app -> Contents -> Resources -> JavaScript -> API -> core.js" */
+/* Defined in: "Frextual.app -> Contents -> Resources -> JavaScript -> API -> core.js" */
 
-Textual.viewFinishedLoading = function()
+Frextual.viewFinishedLoading = function()
 {
-	Textual.fadeInLoadingScreen(1.00, 0.95);
+	Frextual.fadeInLoadingScreen(1.00, 0.95);
 
 	setTimeout(function() {
-			   Textual.scrollToBottomOfView()
+			   Frextual.scrollToBottomOfView()
 			   }, 500);
 }
 
-Textual.viewFinishedReload = function()
+Frextual.viewFinishedReload = function()
 {
-	Textual.viewFinishedLoading();
+	Frextual.viewFinishedLoading();
 }

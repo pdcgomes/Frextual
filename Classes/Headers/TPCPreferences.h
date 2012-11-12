@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -37,9 +37,9 @@
 
 #import "TextualApplication.h"
 
-#define TXDefaultTextualLogStyle			@"resource:Simplified Light"
-#define TXDefaultTextualLogFont				@"Lucida Grande"
-#define TXDefaultTextualTimestampFormat		@"[%H:%M:%S]"
+#define TXDefaultFrextualLogStyle			@"resource:Simplified Light"
+#define TXDefaultFrextualLogFont				@"Lucida Grande"
+#define TXDefaultFrextualTimestampFormat		@"[%H:%M:%S]"
 
 typedef enum TXNicknameHighlightMatchType : NSInteger {
 	TXNicknameHighlightPartialMatchType = 0,
@@ -102,7 +102,7 @@ typedef enum TXHostmaskBanFormat : NSInteger {
 
 + (NSString *)gitBuildReference;
 
-+ (NSDictionary *)textualInfoPlist;
++ (NSDictionary *)frextualInfoPlist;
 + (NSDictionary *)systemInfoPlist;
 
 + (NSString *)applicationBundlePath;

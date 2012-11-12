@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -141,8 +141,8 @@
 - (void)showAboutWindow:(id)sender;
 - (void)openLogLocation:(id)sender;
 - (void)openChannelLogs:(id)sender;
-- (void)connectToTextualHelpChannel:(id)sender;
-- (void)connectToTextualTestingChannel:(id)sender;
+- (void)connectToFrextualHelpChannel:(id)sender;
+- (void)connectToFrextualTestingChannel:(id)sender;
 - (void)showSetVhostPrompt:(id)sender;
 - (void)showFindPanel:(id)sender;
 - (void)showChannelBanList:(id)sender;

@@ -7,7 +7,7 @@
 	<key>CFBundleIconFile</key>
 	<string>application.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.teamcoltra.irc.frextual</string>
+	<string>com.codeux.irc.frextual</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -47,8 +47,8 @@
 	<key>TXBundleBuildCodeName</key>
 	<string>Mud Pie</string>
 	<key>TXBundleBuildNumber</key>
-	<string>12585</string>
+	<string>12597</string>
 	<key>TXBundleBuildReference</key>
-	<string>2.1.2-17-g4eda1c3-appstore,modern</string>
+	<string>2.1.2-19-gc4b4a79-stdbuild</string>
 </dict>
 </plist>

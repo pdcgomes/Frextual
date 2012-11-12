@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -47,7 +47,7 @@
 	NSArray *cmdPlugins = [world bundlesForUserInput][command];
 	
 	if (NSObjectIsNotEmpty(cmdPlugins)) {
-		for (THOTextualPluginItem *plugin in cmdPlugins) {
+		for (THOFrextualPluginItem *plugin in cmdPlugins) {
 			THOPluginProtocol *bundle = [plugin pluginPrimaryClass];
 			
 			[bundle messageSentByUser:client message:message command:command];
@@ -75,7 +75,7 @@
 									 @"messageNetwork":  NSStringNilValueSubstitute(client.config.network),
 									 @"messageNumericReply": @(msg.numericReply)};
 		
-		for (THOTextualPluginItem *plugin in cmdPlugins) {
+		for (THOFrextualPluginItem *plugin in cmdPlugins) {
 			THOPluginProtocol *bundle = [plugin pluginPrimaryClass];
 			
 			[bundle messageReceivedByServer:client sender:senderData message:messageData];
@@ -150,7 +150,7 @@
             
 			NSBundle *currBundle = [NSBundle bundleWithPath:fullPath]; 
 			
-			THOTextualPluginItem *plugin = [THOTextualPluginItem new];
+			THOFrextualPluginItem *plugin = [THOFrextualPluginItem new];
 			
 			[plugin initWithPluginClass:[currBundle principalClass] 
 							  andBundle:currBundle 

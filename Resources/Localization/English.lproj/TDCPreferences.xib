@@ -108,7 +108,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{652, 639}, {534, 276}}</string>
 				<int key="NSWTFlags">880279552</int>
-				<string key="NSWindowTitle">Textual Preferences</string>
+				<string key="NSWindowTitle">Frextual Preferences</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<object class="NSToolbar" key="NSViewClass" id="46458695">
 					<object class="NSMutableString" key="NSToolbarIdentifier">
@@ -1299,7 +1299,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<object class="NSButtonCell" key="NSCell" id="469187527">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Request confirmation before quitting Textual.</string>
+							<string key="NSContents">Request confirmation before quitting Frextual.</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="358510447"/>
 							<int key="NSButtonFlags">1211912448</int>
@@ -2311,7 +2311,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<object class="NSButtonCell" key="NSCell" id="718468676">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Disable notifications when Textual is in focus</string>
+							<string key="NSContents">Disable notifications when Frextual is in focus</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="943122032"/>
 							<int key="NSButtonFlags">1211912448</int>
@@ -3588,7 +3588,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 											<object class="NSButtonCell" key="NSCell" id="586580558">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Remember old messages when closing Textual</string>
+												<string key="NSContents">Remember old messages when closing Frextual</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="365790970"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -3833,7 +3833,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="410591155">
 							<int key="NSCellFlags">69206017</int>
 							<int key="NSCellFlags2">4194304</int>
-							<string key="NSContents">The above mentioned addons are executed like any other IRC command. Write a forward slash (/) followed by the name plus any required parameters. Textual will perform the necessary actions and output the results accordingly.</string>
+							<string key="NSContents">The above mentioned addons are executed like any other IRC command. Write a forward slash (/) followed by the name plus any required parameters. Frextual will perform the necessary actions and output the results accordingly.</string>
 							<reference key="NSSupport" ref="756028785"/>
 							<reference key="NSControlView" ref="1053075921"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -4213,7 +4213,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="227696779">
 							<int key="NSCellFlags">69206017</int>
 							<int key="NSCellFlags2">272629760</int>
-							<string key="NSContents">By sorting server notices Textual will find all important non-connection related notices that IRC operators require attention to and place them in a "Server Notices" window for quick scanning of all meaningful information coming from the server.</string>
+							<string key="NSContents">By sorting server notices Frextual will find all important non-connection related notices that IRC operators require attention to and place them in a "Server Notices" window for quick scanning of all meaningful information coming from the server.</string>
 							<reference key="NSSupport" ref="24"/>
 							<reference key="NSControlView" ref="110425965"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -7382,15 +7382,15 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">hidden: values.TextualDeveloperEnvironment</string>
+						<string key="label">hidden: values.FrextualDeveloperEnvironment</string>
 						<reference key="source" ref="315683876"/>
 						<reference key="destination" ref="1032655829"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="315683876"/>
 							<reference key="NSDestination" ref="1032655829"/>
-							<string key="NSLabel">hidden: values.TextualDeveloperEnvironment</string>
+							<string key="NSLabel">hidden: values.FrextualDeveloperEnvironment</string>
 							<string key="NSBinding">hidden</string>
-							<string key="NSKeyPath">values.TextualDeveloperEnvironment</string>
+							<string key="NSKeyPath">values.FrextualDeveloperEnvironment</string>
 							<object class="NSDictionary" key="NSOptions">
 								<string key="NS.key.0">NSValueTransformerName</string>
 								<string key="NS.object.0">NSNegateBoolean</string>
@@ -7418,15 +7418,15 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">hidden: values.TextualDeveloperEnvironment</string>
+						<string key="label">hidden: values.FrextualDeveloperEnvironment</string>
 						<reference key="source" ref="376864740"/>
 						<reference key="destination" ref="1032655829"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="376864740"/>
 							<reference key="NSDestination" ref="1032655829"/>
-							<string key="NSLabel">hidden: values.TextualDeveloperEnvironment</string>
+							<string key="NSLabel">hidden: values.FrextualDeveloperEnvironment</string>
 							<string key="NSBinding">hidden</string>
-							<string key="NSKeyPath">values.TextualDeveloperEnvironment</string>
+							<string key="NSKeyPath">values.FrextualDeveloperEnvironment</string>
 							<object class="NSDictionary" key="NSOptions">
 								<string key="NS.key.0">NSValueTransformerName</string>
 								<string key="NS.object.0">NSNegateBoolean</string>

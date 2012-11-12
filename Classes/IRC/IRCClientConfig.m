@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -96,10 +96,10 @@ NSComparisonResult channelDataSort(IRCChannel *s1, IRCChannel *s2, void *context
 	NSString *kcPassword = nil;
 	
 	if (NSObjectIsEmpty(_nickPassword)) {
-		kcPassword = [AGKeychain getPasswordFromKeychainItem:@"Textual (NickServ)"
+		kcPassword = [AGKeychain getPasswordFromKeychainItem:@"Frextual (NickServ)"
 												withItemKind:@"application password" 
 												 forUsername:[TPCPreferences applicationName] 
-												 serviceName:[NSString stringWithFormat:@"textual.nickserv.%@", self.guid]];
+												 serviceName:[NSString stringWithFormat:@"frextual.nickserv.%@", self.guid]];
 	}
 	
 	if (kcPassword) {
@@ -116,16 +116,16 @@ NSComparisonResult channelDataSort(IRCChannel *s1, IRCChannel *s2, void *context
 {
 	if ([_nickPassword isEqualToString:pass] == NO) {	
 		if (NSObjectIsEmpty(pass)) {
-			[AGKeychain deleteKeychainItem:@"Textual (NickServ)"
+			[AGKeychain deleteKeychainItem:@"Frextual (NickServ)"
 							  withItemKind:@"application password"
 							   forUsername:[TPCPreferences applicationName]
-							   serviceName:[NSString stringWithFormat:@"textual.nickserv.%@", self.guid]];
+							   serviceName:[NSString stringWithFormat:@"frextual.nickserv.%@", self.guid]];
 		} else {
-			[AGKeychain modifyOrAddKeychainItem:@"Textual (NickServ)"
+			[AGKeychain modifyOrAddKeychainItem:@"Frextual (NickServ)"
 								   withItemKind:@"application password"
 									forUsername:[TPCPreferences applicationName]
 								withNewPassword:pass
-									serviceName:[NSString stringWithFormat:@"textual.nickserv.%@", self.guid]];
+									serviceName:[NSString stringWithFormat:@"frextual.nickserv.%@", self.guid]];
 		}
 		
 		_nickPassword = nil;
@@ -138,10 +138,10 @@ NSComparisonResult channelDataSort(IRCChannel *s1, IRCChannel *s2, void *context
 	NSString *kcPassword = nil;
 	
 	if (NSObjectIsEmpty(_password)) {
-		kcPassword = [AGKeychain getPasswordFromKeychainItem:@"Textual (Server Password)"
+		kcPassword = [AGKeychain getPasswordFromKeychainItem:@"Frextual (Server Password)"
 												withItemKind:@"application password" 
 												 forUsername:[TPCPreferences applicationName]
-												 serviceName:[NSString stringWithFormat:@"textual.server.%@", self.guid]];
+												 serviceName:[NSString stringWithFormat:@"frextual.server.%@", self.guid]];
 	}
 	
 	if (kcPassword) {
@@ -158,16 +158,16 @@ NSComparisonResult channelDataSort(IRCChannel *s1, IRCChannel *s2, void *context
 {
 	if ([_password isEqualToString:pass] == NO) {
 		if (NSObjectIsEmpty(pass)) {
-			[AGKeychain deleteKeychainItem:@"Textual (Server Password)"
+			[AGKeychain deleteKeychainItem:@"Frextual (Server Password)"
 							  withItemKind:@"application password"
 							   forUsername:[TPCPreferences applicationName]
-							   serviceName:[NSString stringWithFormat:@"textual.server.%@", self.guid]];
+							   serviceName:[NSString stringWithFormat:@"frextual.server.%@", self.guid]];
 		} else {
-			[AGKeychain modifyOrAddKeychainItem:@"Textual (Server Password)"
+			[AGKeychain modifyOrAddKeychainItem:@"Frextual (Server Password)"
 								   withItemKind:@"application password"
 									forUsername:[TPCPreferences applicationName]
 								withNewPassword:pass
-									serviceName:[NSString stringWithFormat:@"textual.server.%@", self.guid]];			
+									serviceName:[NSString stringWithFormat:@"frextual.server.%@", self.guid]];			
 		}
 		
 		_password = nil;
@@ -177,15 +177,15 @@ NSComparisonResult channelDataSort(IRCChannel *s1, IRCChannel *s2, void *context
 
 - (void)destroyKeychains
 {	
-	[AGKeychain deleteKeychainItem:@"Textual (Server Password)"
+	[AGKeychain deleteKeychainItem:@"Frextual (Server Password)"
 					  withItemKind:@"application password"
 					   forUsername:[TPCPreferences applicationName]
-					   serviceName:[NSString stringWithFormat:@"textual.server.%@", self.guid]];
+					   serviceName:[NSString stringWithFormat:@"frextual.server.%@", self.guid]];
 	
-	[AGKeychain deleteKeychainItem:@"Textual (NickServ)"
+	[AGKeychain deleteKeychainItem:@"Frextual (NickServ)"
 					  withItemKind:@"application password"
 					   forUsername:[TPCPreferences applicationName]
-					   serviceName:[NSString stringWithFormat:@"textual.nickserv.%@", self.guid]];
+					   serviceName:[NSString stringWithFormat:@"frextual.nickserv.%@", self.guid]];
 }
 
 #pragma mark -

@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -243,10 +243,10 @@
 	NSString *systemUptime = TXSpecialReadableTime([self _internalSystemUptime], NO,
 												   @[@"day", @"hour", @"minute", @"second"]);
 	
-	NSString *textualUptime = TXSpecialReadableTime([NSDate secondsSinceUnixTimestamp:[TPCPreferences startTime]], NO,
+	NSString *frextualUptime = TXSpecialReadableTime([NSDate secondsSinceUnixTimestamp:[TPCPreferences startTime]], NO,
 													@[@"day", @"hour", @"minute", @"second"]);
 	
-	return TXTFLS(@"SystemInformationUptimeCommandResult", systemUptime, textualUptime);
+	return TXTFLS(@"SystemInformationUptimeCommandResult", systemUptime, frextualUptime);
 }
 
 + (NSString *)logThemeInformationFrom:(IRCWorld *)world

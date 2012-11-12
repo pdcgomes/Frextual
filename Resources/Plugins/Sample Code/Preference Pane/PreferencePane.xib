@@ -228,7 +228,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="232928762">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/AboutPanel.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/AboutPanel.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -356,7 +356,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="586269067">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/AddressBookSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/AddressBookSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -364,7 +364,7 @@
 					<string key="superclassName">NSButton</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/BWHyperlinkButton.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/BWHyperlinkButton.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -436,7 +436,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="55316970">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ChanBanExceptionSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ChanBanExceptionSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -508,7 +508,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="513525373">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ChanBanSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ChanBanSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -615,7 +615,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="674055627">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ChannelSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ChannelSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -634,7 +634,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="502268974">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/IRCConnection.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/IRCConnection.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -685,7 +685,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="574159312">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/InviteSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/InviteSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -799,7 +799,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="1005143409">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ListDialog.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ListDialog.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -839,7 +839,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="979741662">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ListView.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ListView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -946,7 +946,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="894295679">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ModeSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ModeSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1112,7 +1112,7 @@
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/FieldEditorTextView.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/FieldEditorTextView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1210,21 +1210,21 @@
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/LogView.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/LogView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/MarkedScroller.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/MarkedScroller.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/MemberListView.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/MemberListView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1267,7 +1267,7 @@
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/NSObject+DDExtensions.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/NSObject+DDExtensions.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1285,7 +1285,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="393039401">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/NickSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/NickSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1303,7 +1303,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="877147275">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/PreferencesController.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/PreferencesController.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1342,14 +1342,14 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="93870290">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ServerSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ServerSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/ServerTreeView.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/ServerTreeView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1402,14 +1402,14 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="1070246664">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/TCPClient.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/TCPClient.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/TCPServer.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/TCPServer.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1427,14 +1427,14 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="513440226">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/Timer.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/Timer.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/TinyGrowlClient.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/TinyGrowlClient.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1452,14 +1452,14 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="340795329">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/TopicSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/TopicSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/TreeView.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/TreeView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -1477,14 +1477,14 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="75720139">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/WelcomeSheet.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/WelcomeSheet.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSWindow</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/NSWindowHelper.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/NSWindowHelper.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -2347,7 +2347,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../../../../Applications/Textual.app/Contents/Headers/SheetBase.h</string>
+						<string key="minorKey">../../../../Applications/Frextual.app/Contents/Headers/SheetBase.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

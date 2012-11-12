@@ -17,7 +17,7 @@
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of the Textual IRC Client & Codeux Software nor the
+    * Neither the name of the Frextual IRC Client & Codeux Software nor the
       names of its contributors may be used to endorse or promote products
       derived from this software without specific prior written permission.
 
@@ -42,8 +42,8 @@
 "AddressBookIgnoreEntryType" = "User Ignore";
 "AddressBookUserTrackingEntryType" = "User Tracking";
 
-"ApplicationWantsToTerminatePromptMessage" = "Quitting will disconnect you from any IRC server that you are connected to until you restart Textual.";
-"ApplicationWantsToTerminatePromptTitle" = "Do you want to quit Textual?";
+"ApplicationWantsToTerminatePromptMessage" = "Quitting will disconnect you from any IRC server that you are connected to until you restart Frextual.";
+"ApplicationWantsToTerminatePromptTitle" = "Do you want to quit Frextual?";
 
 "CancelButton" = "Cancel";
 
@@ -61,15 +61,15 @@
 "CmdWShortcutCloseWindowType" = "Close Window";
 "CmdWShortcutDisconnectServerType" = "Disconnect from %@";
 "CmdWShortcutLeaveChannelType" = "Leave Channel";
-"CmdWShortcutQuitApplicationType" = "Quit Textual & IRC";
+"CmdWShortcutQuitApplicationType" = "Quit Frextual & IRC";
 
 "ContinueButton" = "Continue";
 
 "CopyLogAsHTMLMenuItem" = "Copy Log as HTML";
 
-"DCCRequestErrorMessage" = "The Textual IRC Client has received a DCC request that could not be processed.";
+"DCCRequestErrorMessage" = "The Frextual IRC Client has received a DCC request that could not be processed.";
 
-"DefaultDisconnectQuitMessage" = "Textual IRC Client: www.textualapp.com";
+"DefaultDisconnectQuitMessage" = "Frextual IRC Client: www.frextualapp.com";
 "DefaultNewConnectionName" = "Untitled Connection";
 
 "DeleteButton" = "Delete";
@@ -103,15 +103,15 @@
 "IRCDisconnectedBySleepMode" = "Disconnect for Sleep Mode";
 "IRCDisconnectedByBadSSLCertificate" = "Disconnected from server because of an untrusted SSL certificate.";
 "IRCDisconnectedByTimeout" = "%i minutes have elapsed since last response from this connection. Disconnecting due to timeout.";
-"IRCDisconnectedByTrialPeriodTimer" = "Disconnected from server due to trial period limit. Please consider purchasing Textual to continue or simply reconnect.";
+"IRCDisconnectedByTrialPeriodTimer" = "Disconnected from server due to trial period limit. Please consider purchasing Frextual to continue or simply reconnect.";
 "IRCDisconnectedFromServer" = "Disconnected";
 "IRCHadRawError" = "Message(%1$d): %2$@";
 "IRCIsConnecting" = "Connecting to [%1$@] on port %2$i";
 "IRCIsReconnecting" = "Reconnecting …";
 "IRCIsRetryingConnection" = "Retrying …";
 "IRCModeSet" = "\002%1$@\002 sets mode \002%2$@\002";
-"IRCRawModeIsDisabled" = "Raw mode has been disabled. Textual will no longer output raw data.";
-"IRCRawModeIsEnabled" = "Raw mode has been enabled. Textual will now output all data that it receives and sends to the IRC server in the Mac OS X \"Console\" application. To disable, execute \"/debug raw off\"";
+"IRCRawModeIsDisabled" = "Raw mode has been disabled. Frextual will no longer output raw data.";
+"IRCRawModeIsEnabled" = "Raw mode has been enabled. Frextual will now output all data that it receives and sends to the IRC server in the Mac OS X \"Console\" application. To disable, execute \"/debug raw off\"";
 "IRCRecievedCTCPPingReply" = "\002-%1$@ CTCP-\002 %2$@ (%3$1.5f sec)";
 "IRCRecievedCTCPReply" = "\002-%1$@ CTCP-\002 %2$@ %3$@";
 "IRCRecievedCTCPRequest" = "\002-CTCP-\002 %1$@ from %2$@";
@@ -171,7 +171,7 @@
 "NoLogLocationDefinedMenuItem" = "No Log Location Selected";
 
 "OldSandboxContainerFoundDialogTitle" = "Migration Assistant";
-"OldSandboxContainerFoundDialogMessage" = "A set of configuration files associated with an earlier version of Textual have been found.\n\nTextual does not have permission to move the old files while within the Mac OS Sandbox so please download our migration assistant to move them into the correct location.";
+"OldSandboxContainerFoundDialogMessage" = "A set of configuration files associated with an earlier version of Frextual have been found.\n\nFrextual does not have permission to move the old files while within the Mac OS Sandbox so please download our migration assistant to move them into the correct location.";
 "OldSandboxContainerFoundDialogPrimaryButton" = "Quit & Download Assistant";
 "OldSandboxContainerFoundDialogSecondaryButton" = "Do Not Download";
 
@@ -205,7 +205,7 @@
 "OkButton" = "OK";
 
 "OpeningLocalStyleResourcesCopyButton" = "Make Local Copy";
-"OpeningLocalStyleResourcesMessage" = "The style being opened is a read-only version bundled with Textual.";
+"OpeningLocalStyleResourcesMessage" = "The style being opened is a read-only version bundled with Frextual.";
 "OpeningLocalStyleResourcesTitle" = "Resource Files";
 
 "PluginCommandClashErrorMessage" = "Error: The command %@ is shared by both a script and plugin. Sending to server because of inability to determine priority.";
@@ -216,7 +216,7 @@
 
 "ScriptExecutionFailure" = "Script Execution Failure: %@";
 
-"SelfBanDetectedMessage" = "Textual has prevented you from banning yourself on %@.";
+"SelfBanDetectedMessage" = "Frextual has prevented you from banning yourself on %@.";
 
 "ServerDeletePromptMessage" = "There is no undo and all data related to this server will be erased.";
 "ServerDeletePromptTitle" = "Do you want to delete the selection?";
@@ -234,7 +234,7 @@
 "ServerSheetMiscNavigationTreeItem" = "Miscellaneous";
 "ServerSheetProxyNavigationTreeItem" = "Proxy Server";
 
-"SetAsDefaultIRCClientPromptMessage" = "Textual is not set as the default IRC client for this copy of Mac OS X. Set it?";
+"SetAsDefaultIRCClientPromptMessage" = "Frextual is not set as the default IRC client for this copy of Mac OS X. Set it?";
 "SetAsDefaultIRCClientPromptTitle" = "Default IRC Client";
 
 "SetUserVhostPromptMessage"	= "Please enter desired vHost. (e.g. apple.vhost)";
@@ -291,8 +291,8 @@
 "TimeConvert[WEEK]" = "Week";
 "TimeConvert[YEAR]" = "Year";
 
-"TrialPeriodIntroductionDialogMessage" = "This version of Textual is designed to demonstrate the features, performance, reliability, and usability of Textual without having to purchase it.\n\nHowever, as this is a trial version, it will disconnect you from any IRC server that you are connected to every two hours.\n\nWe hope that this glimpse of Textual will help show that it is worth its low sale price.";
-"TrialPeriodIntroductionDialogTitle" = "Welcome to the Textual IRC Client";
+"TrialPeriodIntroductionDialogMessage" = "This version of Frextual is designed to demonstrate the features, performance, reliability, and usability of Frextual without having to purchase it.\n\nHowever, as this is a trial version, it will disconnect you from any IRC server that you are connected to every two hours.\n\nWe hope that this glimpse of Frextual will help show that it is worth its low sale price.";
+"TrialPeriodIntroductionDialogTitle" = "Welcome to the Frextual IRC Client";
 
 "TrustButton" = "Trust";
 
@@ -362,7 +362,7 @@
 "SystemInformationOSVersionLion" = "Lion";
 "SystemInformationOSVersionMountainLion" = "Mountain Lion";
 
-"SystemInformationApplicationMemoryUse" = "Textual is privately using %1$@ of memory. It is also sharing %2$@ with other processes. ";
+"SystemInformationApplicationMemoryUse" = "Frextual is privately using %1$@ of memory. It is also sharing %2$@ with other processes. ";
 
 "SystemInformationCPUClockSpeedGHz" = "%.2f GHz";
 "SystemInformationCPUClockSpeedMHz" = "%.2f MHz"; // really?
@@ -390,8 +390,8 @@
 "SystemInformationScreensCommandResultMultiMiddle" = "; Monitor %i: %.0f x %.0f";
 "SystemInformationScreensCommandResultHighResoMode" = " (Retina Enabled)";
 
-"SystemInformationUptimeCommandResult" = "System Uptime: %@ - Textual Uptime: %@";
+"SystemInformationUptimeCommandResult" = "System Uptime: %@ - Frextual Uptime: %@";
 "SystemInformationSysmemCommandResult" = "\002System Memory:\002 Free: %@; Used: %@; Total: %@; — [%@]";
-"SystemInformationRuncountCommandResult" = "Textual has been opened \002%@\002 times with a total runtime of %@";
+"SystemInformationRuncountCommandResult" = "Frextual has been opened \002%@\002 times with a total runtime of %@";
 "SystemInformationLoadavgCommandResult" = "\002Load Average:\002 %@";
-"SystemInformationMsgcountCommandResult" = "Textual has sent \002%1$@\002 messages since startup with a total of \002%2$@\002 messages received. That equals roughly \002%5$.2f\002 messages a second. Combined this comes to around \002%3$@ in\002 and \002%4$@ out\002 worth of bandwidth.";
+"SystemInformationMsgcountCommandResult" = "Frextual has sent \002%1$@\002 messages since startup with a total of \002%2$@\002 messages received. That equals roughly \002%5$.2f\002 messages a second. Combined this comes to around \002%3$@ in\002 and \002%4$@ out\002 worth of bandwidth.";

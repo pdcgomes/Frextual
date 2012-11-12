@@ -8,7 +8,7 @@
 	* Support for inverted sidebars in 2.1.1
 
 2012-06-08 - Version 1.2
-	* Updated for Textual 2.1, fixing bugs caused by the new version. 
+	* Updated for Frextual 2.1, fixing bugs caused by the new version. 
 	* Brightened background colour, slightly.
 
 2011-04-10 - Version 1.1
