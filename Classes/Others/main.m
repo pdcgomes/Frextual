@@ -3,9 +3,9 @@
 
 int main(int argc, const char *argv[])
 {
-	[_NSUserDefaults() addSuiteNamed:@"com.codeux.textual"];
-	[_NSUserDefaults() addSuiteNamed:@"com.codeux.irc.textual"];
-	[_NSUserDefaults() addSuiteNamed:@"com.codeux.irc.textual.trial"];
+	[_NSUserDefaults() addSuiteNamed:@"com.teamcoltra.frextual"];
+	[_NSUserDefaults() addSuiteNamed:@"com.teamcoltra.irc.frextual"];
+	[_NSUserDefaults() addSuiteNamed:@"com.teamcoltra.irc.frextual.trial"];
 
 	@autoreleasepool {
 		NSApplicationMain(argc, argv);
